@@ -7,7 +7,7 @@ import {
   UTCClock,
   LocalClock
 } from '@/components/layout/StardateCalc';
-import Link from 'next/link';
+
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
