@@ -3,9 +3,9 @@ import Image from "next/image";
 export default function About() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center p-2">
-      <main className="flex flex-col items-center justify-center my-auto rounded-lg backdrop-blur-md bg-lcars-black border-4 border-lcars-gray shadow-lg">
+      <main className="flex flex-col items-center justify-center my-auto rounded-lg backdrop-blur-md bg-lcars-black border-4 border-lcars-gray shadow-lg pr-6">
 
-        <div className="flex flex-col items-center justify-center w-full border-b-2 border-lcars-gray mb-3">
+        <div className="flex flex-col items-center justify-center w-full border-b-2 border-lcars-gray mb-3 ">
           <div className="w-full">
             <h3 className="text-4xl font-lcars-bold font-bold mb-6 text-lcars-gold border-b-2 border-lcars-gold">
             SERVICE RECORD
