@@ -77,6 +77,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <div className="flex flex-col justify-between pt-[90px] w-[200px] min-w-[200px] text-right text-[0.8rem] font-bold text-black bg-lcars-ice rounded-tl-[140px]">
           <div>
             <div className="pt-[15px] pb-[15px] pr-[10px] border-b-[5px] border-black">
+              {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
               <a
                 href="/"
                 className='text-lcars-black hover:text-lcars-raC69 hover:underline text-lcars-bold text-2xl'
